@@ -34,13 +34,13 @@ const Footer = () => {
   <h6 className="mb-20">Community</h6>
   <ul className="menu-footer">
     <li style={{ marginBottom: '10px' }}>
-      <a href="#">FAQ</a>
+      <a href="/page-pricing">FAQ</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
       <a href="/blog-grid">Blog</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
-      <a href="#"></a>
+      <a href="/knowledge-base">Knowledge Base</a>
     </li>
   </ul>
 </div>
@@ -48,7 +48,7 @@ const Footer = () => {
   <h6 className="mb-20">The Company</h6>
   <ul className="menu-footer">
     <li style={{ marginBottom: '10px' }}>
-      <a href="#">About Us</a>
+      <a href="/page-about">About Us</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
       <a href="/termscondition">Terms</a>

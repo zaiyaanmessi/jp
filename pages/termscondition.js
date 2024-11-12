@@ -262,7 +262,7 @@ export default function Terms(){
                                                 <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
                                             </ul>
                                             <p /> */}
-                                            <p>If you have any questions or concerns about these Terms & Conditions, please contact us at connect@offernhire.com </p>
+                                            <p>If you have any questions or concerns about these Terms & Conditions, please contact us at <a href="#">connect@offernhire.com </a></p>
                                       
                                         </div>
                                         {/* <div className="single-apply-jobs mt-20">

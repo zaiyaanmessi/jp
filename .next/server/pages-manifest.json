@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/blog-details": "pages/blog-details.js",
-  "/": "pages/index.js",
-  "/termscondition": "pages/termscondition.js"
+  "/termscondition": "pages/termscondition.js",
+  "/page-pricing": "pages/page-pricing.js",
+  "/page-about": "pages/page-about.js"
 }
