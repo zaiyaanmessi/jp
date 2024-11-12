@@ -6,7 +6,7 @@ export default function Pricing() {
         <>
             <Layout>
                 <div>
-                    <section className="section-box">
+                    {/* <section className="section-box">
                         <div className="breacrumb-cover">
                             <div className="container">
                                 <div className="row">
@@ -27,8 +27,8 @@ export default function Pricing() {
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    <section className="section-box mt-90">
+                    </section> */}
+                    {/* <section className="section-box mt-90">
                         <div className="container">
                             <h2 className="text-center mb-15 wow animate__animated animate__fadeInUp">Pricing Table</h2>
                             <div className="font-lg color-text-paragraph-2 text-center wow animate__animated animate__fadeInUp">Choose The Best Plan That’s For You</div>
@@ -111,7 +111,7 @@ export default function Pricing() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     <section className="section-box mt-90 mb-50">
                         <div className="container">
                             <h2 className="text-center mb-15 wow animate__animated animate__fadeInUp">Frequently Asked Questions</h2>
@@ -122,8 +122,11 @@ export default function Pricing() {
                             <div className="row mt-50">
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="card-grid-border hover-up wow animate__animated animate__fadeIn">
-                                        <h4 className="mb-20">I have promotional or discount code?</h4>
-                                        <p className="font-sm mb-20 color-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh vitae quam blandit venenatis. Duis vehicula magna ut neque tempus tristique. Nam venenatis turpis euismod arcu aliquet finibus. Vivamus nec vulputate ex, vitae condimentum ante. Suspendisse metus metus, laoreet nec arcu vel, venenatis cursus libero.</p>
+                                        <h4 className="mb-20">What is OfferNHire, and how does it work?</h4>
+                                        <p className="font-sm mb-20 color-text-paragraph">OfferNHire is an innovative job portal that connects job seekers with employers looking for talent across various industries.
+                                         Job seekers can create profiles,
+                                          upload resumes, and apply to jobs that match their skills. Employers 
+                                          can post job listings, review candidate profiles, and connect with top talent. Our platform simplifies the job search and hiring process for everyone.</p>
                                         <a className="link-arrow" href="#">
                                             Keep Reading
                                         </a>
@@ -131,8 +134,9 @@ export default function Pricing() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="card-grid-border hover-up wow animate__animated animate__fadeIn">
-                                        <h4 className="mb-20">Where is my order? Quisque molestie</h4>
-                                        <p className="font-sm mb-20 color-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh vitae quam blandit venenatis. Duis vehicula magna ut neque tempus tristique. Nam venenatis turpis euismod arcu aliquet finibus. Vivamus nec vulputate ex, vitae condimentum ante. Suspendisse metus metus, laoreet nec arcu vel, venenatis cursus libero.</p>
+                                        <h4 className="mb-20">How do I create a profile on OfferNHire?</h4>
+                                        <p className="font-sm mb-20 color-text-paragraph">To create a profile, click the "Sign Up" button on our homepage. Follow the steps to enter your details, upload your resume, and complete your profile with skills and experience. Once registered, you can apply to job listings, save jobs,
+                                         and receive personalized job recommendations.</p>
                                         <a className="link-arrow" href="#">
                                             Keep Reading
                                         </a>
@@ -140,8 +144,9 @@ export default function Pricing() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="card-grid-border hover-up wow animate__animated animate__fadeIn">
-                                        <h4 className="mb-20">How can I return an item purchased online?</h4>
-                                        <p className="font-sm mb-20 color-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh vitae quam blandit venenatis. Duis vehicula magna ut neque tempus tristique. Nam venenatis turpis euismod arcu aliquet finibus. Vivamus nec vulputate ex, vitae condimentum ante. Suspendisse metus metus, laoreet nec arcu vel, venenatis cursus libero.</p>
+                                        <h4 className="mb-20">Is OfferNHire free to use for job seekers?</h4>
+                                        <p className="font-sm mb-20 color-text-paragraph">To create a profile, click the "Sign Up" button on our homepage. Follow the steps to enter your details, upload your resume, and complete your profile with skills and experience. Once registered, you can apply to job listings, save jobs, 
+                                        and receive personalized job recommendations.</p>
                                         <a className="link-arrow" href="#">
                                             Keep Reading
                                         </a>
@@ -149,8 +154,9 @@ export default function Pricing() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="card-grid-border hover-up wow animate__animated animate__fadeIn">
-                                        <h4 className="mb-20">What are the delivery types you use?</h4>
-                                        <p className="font-sm mb-20 color-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh vitae quam blandit venenatis. Duis vehicula magna ut neque tempus tristique. Nam venenatis turpis euismod arcu aliquet finibus. Vivamus nec vulputate ex, vitae condimentum ante. Suspendisse metus metus, laoreet nec arcu vel, venenatis cursus libero.</p>
+                                        <h4 className="mb-20">How can employers post a job on OfferNHire?</h4>
+                                        <p className="font-sm mb-20 color-text-paragraph">Employers can post a job by signing up as a company on OfferNHire, filling out company details, and selecting the "Post a Job" option. Follow the prompts to create a job listing, set requirements, and share details about the position. Job postings
+                                         are visible to qualified job seekers who match the listed skills.</p>
                                         <a className="link-arrow" href="#">
                                             Keep Reading
                                         </a>
@@ -158,8 +164,10 @@ export default function Pricing() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="card-grid-border hover-up wow animate__animated animate__fadeIn">
-                                        <h4 className="mb-20">How can I pay for my purchases?</h4>
-                                        <p className="font-sm mb-20 color-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh vitae quam blandit venenatis. Duis vehicula magna ut neque tempus tristique. Nam venenatis turpis euismod arcu aliquet finibus. Vivamus nec vulputate ex, vitae condimentum ante. Suspendisse metus metus, laoreet nec arcu vel, venenatis cursus libero.</p>
+                                        <h4 className="mb-20">What types of jobs can I find on OfferNHire?</h4>
+                                        <p className="font-sm mb-20 color-text-paragraph">OfferNHire features a wide variety of jobs across industries, 
+                                        including IT, finance, healthcare, marketing, engineering, and more. Whether you’re 
+                                        seeking full-time, part-time, freelance, or remote opportunities, our platform has something for everyone.</p>
                                         <a className="link-arrow" href="#">
                                             Keep Reading
                                         </a>
@@ -167,8 +175,8 @@ export default function Pricing() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 col-sm-12">
                                     <div className="card-grid-border hover-up wow animate__animated animate__fadeIn">
-                                        <h4 className="mb-20">What are the delivery types you use?</h4>
-                                        <p className="font-sm mb-20 color-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id nibh vitae quam blandit venenatis. Duis vehicula magna ut neque tempus tristique. Nam venenatis turpis euismod arcu aliquet finibus. Vivamus nec vulputate ex, vitae condimentum ante. Suspendisse metus metus, laoreet nec arcu vel, venenatis cursus libero.</p>
+                                        <h4 className="mb-20">How does OfferNHire ensure the security of my personal information?</h4>
+                                        <p className="font-sm mb-20 color-text-paragraph">We prioritize user privacy and security. OfferNHire uses advanced encryption and security protocols to protect your personal information. Only employers can view your profile if you apply to their job listings, ensuring your details are safe and confidential.</p>
                                         <a className="link-arrow" href="#">
                                             Keep Reading
                                         </a>

@@ -14,9 +14,9 @@ export default function BlogDetails() {
                         <div className="container">
                             <div className="box-white">
                                 <div className="max-width-single">
-                                    <Link legacyBehavior href="#">
+                                    {/* <Link legacyBehavior href="#">
                                         <a className="btn btn-tag">Job Tips</a>
-                                    </Link>
+                                    </Link> */}
 
                                     <h2 className="mb-30 mt-20 text-center">11 Tips to Help You Get New Clients Through Cold Calling</h2>
                                     <div className="post-meta text-muted d-flex align-items-center mx-auto justify-content-center">
@@ -48,9 +48,9 @@ export default function BlogDetails() {
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus, quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est.</p>
                                         </div>
                                     </div>
-                                    <figure>
+                                    {/* <figure>
                                         <img src="assets/imgs/page/blog/img-content.png" />
-                                    </figure>
+                                    </figure> */}
                                     <div className="max-width-single">
                                         <div className="content-single">
                                             <p />
@@ -107,8 +107,8 @@ export default function BlogDetails() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <h3>Comments</h3>
-                                        <ul className="list-comments">
+                                        {/* <h3>Comments</h3> */}
+                                        {/* <ul className="list-comments">
                                             <li>
                                                 <div className="author-bio mt-40 bg-white">
                                                     <div className="author-image mb-15">
@@ -168,8 +168,8 @@ export default function BlogDetails() {
                                                     </li>
                                                 </ul>
                                             </li>
-                                        </ul>
-                                        <div className="border-bottom mt-50 mb-50" />
+                                        </ul> */}
+                                        {/* <div className="border-bottom mt-50 mb-50" />
                                         <div className="mt-30">
                                             <h3>Leave a comment</h3>
                                             <div className="form-comment">
@@ -189,8 +189,8 @@ export default function BlogDetails() {
                                                         </div>
                                                     </div>
                                                 </form>
-                                            </div>
-                                        </div>
+                                            </div> */}
+                                        {/* </div> */}
                                     </div>
                                 </div>
                             </div>

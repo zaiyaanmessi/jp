@@ -66,10 +66,10 @@ export default function About() {
                             <div className="container">
                                 <div className="text-center">
                                     <h6 className="f-18 color-text-mutted text-uppercase">Our company</h6>
-                                    <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">Meet Our Team</h2>
-                                    <p className="font-sm color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ligula ante, dictum non aliquet eu, dapibus ac quam. Morbi vel ante viverra orci tincidunt tempor eu id ipsum. Sed consectetur, risus a blandit tempor, velit magna pellentesque risus, at congue tellus dui quis nisl.</p>
+                                    <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">Meet the Individuals, Driven, Passionate, and Dedicated</h2>
+                                    <p className="font-sm color-text-paragraph w-lg-50 mx-auto wow animate__animated animate__fadeInUp">This project wouldn’t be possible without the hard work and commitment of our talented individuals. Each brings unique skills and a dedication to making OfferNHire a success. We’re thankful for their contributions and eager to witness the positive impact they’ll continue to have in their careers.</p>
                                 </div>
-                                <div className="row mt-70">
+                                <div className="row mt-70" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
                                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-md-30">
                                         <div className="card-grid-4 text-center hover-up">
                                             <div className="image-top-feature">
@@ -196,14 +196,14 @@ export default function About() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-md-30">
+                                    {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-md-30">
                                         <div className="card-grid-4 text-center hover-up">
                                             <div className="image-top-feature">
                                                 <figure>
                                                     <img alt="jobBox" src="assets/imgs/page/about/team4.png" />
                                                 </figure>
-                                            </div>
-                                            <div className="card-grid-4-info">
+                                            </div> */}
+                                            {/* <div className="card-grid-4-info">
                                                 <h5 className="mt-10">Jerome Bell</h5>
                                                 <p className="font-xs color-text-paragraph-2 mt-5 mb-5">Frontend Developer</p>
                                                 <div className="rate-reviews-small pt-5">
@@ -237,15 +237,15 @@ export default function About() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-md-30">
+                                    </div> */}
+                                    {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-md-30">
                                         <div className="card-grid-4 text-center hover-up">
                                             <div className="image-top-feature">
                                                 <figure>
                                                     <img alt="jobBox" src="assets/imgs/page/about/team5.png" />
                                                 </figure>
-                                            </div>
-                                            <div className="card-grid-4-info">
+                                            </div> */}
+                                            {/* <div className="card-grid-4-info">
                                                 <h5 className="mt-10">Theresa</h5>
                                                 <p className="font-xs color-text-paragraph-2 mt-5 mb-5">Frontend Developer</p>
                                                 <div className="rate-reviews-small pt-5">
@@ -286,8 +286,8 @@ export default function About() {
                                                 <figure>
                                                     <img alt="jobBox" src="assets/imgs/page/about/team6.png" />
                                                 </figure>
-                                            </div>
-                                            <div className="card-grid-4-info">
+                                            </div> */}
+                                            {/* <div className="card-grid-4-info">
                                                 <h5 className="mt-10">Cameron</h5>
                                                 <p className="font-xs color-text-paragraph-2 mt-5 mb-5">Frontend Developer</p>
                                                 <div className="rate-reviews-small pt-5">
@@ -328,8 +328,8 @@ export default function About() {
                                                 <figure>
                                                     <img alt="jobBox" src="assets/imgs/page/about/team7.png" />
                                                 </figure>
-                                            </div>
-                                            <div className="card-grid-4-info">
+                                            </div> */}
+                                            {/* <div className="card-grid-4-info">
                                                 <h5 className="mt-10">Jacob Jones</h5>
                                                 <p className="font-xs color-text-paragraph-2 mt-5 mb-5">Frontend Developer</p>
                                                 <div className="rate-reviews-small pt-5">
@@ -402,10 +402,10 @@ export default function About() {
                                                     <a className="share-twitter social-share-link" href="#" />
                                                     <a className="share-instagram social-share-link" href="#" />
                                                     <a className="share-linkedin social-share-link" href="#" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                                </div> */}
+                                            {/* </div> */}
+                                        {/* </div> */}
+                                    {/* </div> */}
                                 </div>
                             </div>
                         </div>

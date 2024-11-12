@@ -16,46 +16,50 @@ const Footer = () => {
                             <a className="icon-socials icon-twitter" href="#" />
                             <a className="icon-socials icon-linkedin" href="#" /></div>
                     </div>
-                    <div className="footer-col-2 col-md-2 col-xs-6">
-                        <h6 className="mb-20">Resources</h6>
-                        <ul className="menu-footer">
-                            <li>
-                                <a href="#">About us</a></li>
-                            <li>
-                                <a href="#">Our Team</a></li>
-                            <li>
-                                <a href="#">Products</a></li>
-                            <li>
-                                <a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div className="footer-col-3 col-md-2 col-xs-6">
-                        <h6 className="mb-20">Community</h6>
-                        <ul className="menu-footer">
-                            <li>
-                                <a href="#">Feature</a></li>
-                            <li>
-                                <a href="#">Pricing</a></li>
-                            <li>
-                                <a href="#">Credit</a></li>
-                            <li>
-                                <a href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-                    <div className="footer-col-4 col-md-2 col-xs-6">
-                        <h6 className="mb-20">Quick links</h6>
-                        <ul className="menu-footer">
-                            <li>
-                                <a href="#">iOS</a></li>
-                            <li>
-                                <a href="#">Android</a></li>
-                            <li>
-                                <a href="#">Microsoft</a></li>
-                            <li>
-                                <a href="#">Desktop</a></li>
-                        </ul>
-                    </div>
-                    <div className="footer-col-5 col-md-2 col-xs-6">
+                    <div className="footer-col-2 col-md-2 col-xs-6" style={{ marginRight: '20px' }}>
+  <h6 className="mb-20">For Clients</h6>
+  <ul className="menu-footer">
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#">Explore Job Listings</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#">Search for Candidates</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#">Connect with Employers</a>
+    </li>
+  </ul>
+</div>
+<div className="footer-col-3 col-md-2 col-xs-6" style={{ marginRight: '20px' }}>
+  <h6 className="mb-20">Community</h6>
+  <ul className="menu-footer">
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#">FAQ</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="/blog-grid">Blog</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#"></a>
+    </li>
+  </ul>
+</div>
+<div className="footer-col-4 col-md-2 col-xs-6">
+  <h6 className="mb-20">The Company</h6>
+  <ul className="menu-footer">
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#">About Us</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="/termscondition">Terms</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="#">Trust, Safety & Security</a>
+    </li>
+  </ul>
+</div>
+
+                    {/* <div className="footer-col-5 col-md-2 col-xs-6">
                         <h6 className="mb-20">More</h6>
                         <ul className="menu-footer">
                             <li>
@@ -67,14 +71,20 @@ const Footer = () => {
                             <li>
                                 <a href="#">FAQ</a></li>
                         </ul>
-                    </div>
-                    <div className="footer-col-6 col-md-3 col-sm-12">
-                        <h6 className="mb-20">Download App</h6>
-                        <p className="color-text-paragraph-2 font-xs">Download our Apps and get extra 15% Discount on your first Order…!</p>
-                        <div className="mt-15">
-                            <a className="mr-5" href="#"><img src="assets/imgs/template/icons/app-store.png" alt="joxBox" /></a>
-                            <a href="#"><img src="assets/imgs/template/icons/android.png" alt="joxBox" /></a></div>
-                    </div>
+                    </div> */}
+                   <div className="footer-col-6 col-md-3 col-sm-12" style={{ marginLeft: 'auto' }}>
+  <h6 className="mb-20">Download App</h6>
+  <p className="color-text-paragraph-2 font-xs">Download our Apps and get extra 15% Discount on your first Order…!</p>
+  <div className="mt-15">
+    <a className="mr-5" href="#">
+      <img src="assets/imgs/template/icons/app-store.png" alt="joxBox" />
+    </a>
+    <a href="#">
+      <img src="assets/imgs/template/icons/android.png" alt="joxBox" />
+    </a>
+  </div>
+</div>
+
                 </div>
                 <div className="footer-bottom mt-50">
                     <div className="row">
