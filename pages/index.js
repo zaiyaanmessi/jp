@@ -1,4 +1,4 @@
-﻿// /* eslint-disable @next/next/no-img-element */
+﻿/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from 'react';
 import Link from "next/link";
 import Layout from "../components/Layout/Layout";
@@ -110,7 +110,14 @@ export default function Index3() {
                                                    
                                                 </select>
                                             </div>
-                                            <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}  placeholder="Your keyword... " />
+                                            <input
+  type="text"
+  value={searchTerm}
+  onChange={(e) => setSearchTerm(e.target.value)}
+  placeholder="Your keyword..."
+  style={{ border: 'none', outline: 'none' }}
+/>
+
                                             <button className="btn btn-default btn-find font-sm" onClick={handleSearch}>Search</button>
                                         </form>
                                     </div>

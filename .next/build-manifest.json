@@ -22,10 +22,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/page-pricing": [
+    "/blog-details": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-pricing.js"
+      "static/chunks/pages/blog-details.js"
     ],
     "/termscondition": [
       "static/chunks/webpack.js",

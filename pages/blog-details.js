@@ -197,7 +197,7 @@ export default function BlogDetails() {
                         </div>
                     </div>
                 </div>
-                <section className="section-box mt-50 mb-20">
+                {/* <section className="section-box mt-50 mb-20">
                     <div className="container">
                         <div className="box-newsletter">
                             <div className="row">
@@ -222,7 +222,7 @@ export default function BlogDetails() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
         </>
     );

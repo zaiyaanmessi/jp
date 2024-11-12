@@ -18,8 +18,8 @@ export default function Terms(){
                                         <a className="btn btn-tag">Job Tips</a>
                                     </Link> */}
 
-                                    <h2 className="mb-30 mt-20 text-center">11 Tips to Help You Get New Clients Through Cold Calling</h2>
-                                    <div className="post-meta text-muted d-flex align-items-center mx-auto justify-content-center">
+                                    <h2 className="mb-30 mt-20 text-center">Terms & Conditions</h2>
+                                    {/* <div className="post-meta text-muted d-flex align-items-center mx-auto justify-content-center">
                                         <div className="author d-flex align-items-center mr-30">
                                             <img alt="jobBox" src="assets/imgs/page/homepage1/user3.png" />
                                             <span>Sarah Harding</span>
@@ -32,7 +32,7 @@ export default function Terms(){
                                                 <img className="img-middle mr-5" src="assets/imgs/template/icons/time.svg" /> 8 mins to read
                                             </span>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -44,9 +44,9 @@ export default function Terms(){
                             <div className="col-lg-10 mx-auto">
                                 <div className="single-body">
                                     <div className="max-width-single">
-                                        <div className="font-lg mb-30">
+                                        {/* <div className="font-lg mb-30">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus, quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est.</p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     {/* <figure>
                                         <img src="assets/imgs/page/blog/img-content.png" />
@@ -54,9 +54,9 @@ export default function Terms(){
                                     <div className="max-width-single">
                                         <div className="content-single">
                                             <p />
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus, quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est.</p>
-                                            <h4>In ut odio libero</h4>
-                                            <ul>
+                                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare pellentesque sollicitudin. Suspendisse potenti. Fusce ex risus, iaculis sit amet sapien nec, finibus malesuada mi. Proin at turpis eget sapien pulvinar luctus. Vestibulum bibendum pharetra lorem eu aliquam. In feugiat placerat risus, sed rutrum neque mattis sit amet. Nullam vestibulum ante ac quam tempor, id venenatis velit eleifend. Duis id iaculis risus, quis ullamcorper augue. Nunc tristique venenatis ipsum at euismod. Pellentesque id arcu est.</p> */}
+                                            <h4>Introduction</h4>
+                                            {/* <ul>
                                                 <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
                                                 <li>5+ years of industry experience in interactive design and / or visual design</li>
                                                 <li>Excellent interpersonal skills </li>
@@ -67,10 +67,205 @@ export default function Terms(){
                                                 <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
                                                 <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
                                             </ul>
-                                            <p />
-                                            <p>Phasellus enim magna, varius et commodo ut, ultricies vitae velit. Ut nulla tellus, eleifend euismod pellentesque vel, sagittis vel justo. In libero urna, venenatis sit amet ornare non, suscipit nec risus. Sed consequat justo non mauris pretium at tempor justo sodales. Quisque tincidunt laoreet malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer vitae ante enim. Fusce sed elit est. Suspendisse sit amet mauris in quam pretium faucibus et aliquam odio.</p>
+                                            <p /> */}
+                                            <p>CareerX24 is a registered company, and under this entity, we are launching the OfferNHire domain to expand our services. These Terms & Conditions govern your use of our job portal. By accessing or using OfferNHire, you agree to comply with these terms. 
+                                                If you do not agree with any part of these terms, please do not use our platform.</p>
+
+                                                <h4>User Accounts</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>Registration: To access certain features, you may need to create an account. You agree to provide accurate and complete information during the registration process.</p>
+                                            <p>Account Security: You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account.</p>
+                                                <h4>Use of the Platform</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p> Job Listings: Employers may post job listings on our platform. We do not endorse or guarantee the accuracy of these listings.</p>
+                                            <p>Job Applications: Users may apply for jobs through our platform. We are not responsible for the hiring process or outcomes.</p>
+
+                                                <h4>Prohibited Activities</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <ul>
+                                                <li>Post false or misleading information.</li>
+                                                <li>Use the platform for any unlawful purposes.</li>
+                                                <li>Violate any intellectual property rights.</li>
+                                                <li>Upload harmful or malicious content.</li>
+                                                
+                                                
+                                            </ul>
+
+                                                <h4>User Content</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>Responsibility: Users are responsible for the content they post on OfferNHire. We do not endorse or assume liability for user-generated content. </p>
+                                                <p>License: By posting content, you grant OfferNHire a non-exclusive, royalty-free, worldwide license to use, display, and distribute your content.</p>
+                                                <h4>Privacy</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>Your use of OfferNHire is subject to our Privacy Policy, which outlines
+                                                 how we collect, use, and protect your information. </p>
+
+                                                <h4>Payment and Fees</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>Services: Certain features may require payment. You agree to pay all applicable fees as described on our platform.</p>
+                                            <p>Refunds: Refunds are subject to our refund policy. Please review our refund policy for more information.</p>
+                                                <h4>Disclaimers and Limitation of Liability</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>Disclaimer: OfferNHire is provided "as is" without warranties of any kind. We do not guarantee the accuracy or completeness of the platform's content. </p>
+                                            <p> Limitation of Liability: To the extent permitted by law, OfferNHire shall not be liable for any indirect, incidental, or consequential damages arising out of your use of the platform. </p>
+                                                <h4>Indemnification</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>You agree to indemnify and hold OfferNHire harmless from any claims, losses, damages, liabilities, and expenses arising out of
+                                                 your use of the platform or violation of these terms. </p>
+
+                                                <h4>Modifications</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>We reserve the right to modify these Terms & Conditions at any time. Changes will be effective immediately upon posting. Your continued use of the platform 
+                                                constitutes acceptance of the revised terms.</p>
+
+                                                <h4> Termination</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>We may terminate or suspend your account at any time for any reason, including violation of these terms. 
+                                                Upon termination, you must cease all use of the platform.</p>
+
+                                                <h4> Governing Law</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>These Terms & Conditions are governed by the laws of India. Any disputes arising from these terms shall be resolved exclusively
+                                                 in the courts of Bangalore, Karnataka, India.</p>
+
+                                                <h4>Contact Information</h4>
+                                            {/* <ul>
+                                                <li>A portfolio demonstrating well thought through and polished end to end customer journeys</li>
+                                                <li>5+ years of industry experience in interactive design and / or visual design</li>
+                                                <li>Excellent interpersonal skills </li>
+                                                <li>Aware of trends in mobile, communications, and collaboration</li>
+                                                <li>Ability to create highly polished design prototypes, mockups, and other communication artifacts</li>
+                                                <li>The ability to scope and estimate efforts accurately and prioritize tasks and goals independently</li>
+                                                <li>History of impacting shipping products with your work</li>
+                                                <li>A Bachelor’s Degree in Design (or related field) or equivalent professional experience</li>
+                                                <li>Proficiency in a variety of design tools such as Figma, Photoshop, Illustrator, and Sketch</li>
+                                            </ul>
+                                            <p /> */}
+                                            <p>If you have any questions or concerns about these Terms & Conditions, please contact us at connect@offernhire.com </p>
+                                      
                                         </div>
-                                        <div className="single-apply-jobs mt-20">
+                                        {/* <div className="single-apply-jobs mt-20">
                                             <div className="row">
                                                 <div className="col-lg-7">
                                                     <Link legacyBehavior href="#">
@@ -105,8 +300,8 @@ export default function Terms(){
                                                         </a>
                                                     </Link>
                                                 </div>
-                                            </div>
-                                        </div>
+                                            </div> */}
+                                        {/* </div> */}
                                         {/* <h3>Comments</h3> */}
                                         {/* <ul className="list-comments">
                                             <li>
@@ -197,7 +392,7 @@ export default function Terms(){
                         </div>
                     </div>
                 </div>
-                <section className="section-box mt-50 mb-20">
+                {/* <section className="section-box mt-50 mb-20">
                     <div className="container">
                         <div className="box-newsletter">
                             <div className="row">
@@ -222,7 +417,7 @@ export default function Terms(){
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
         </>
     );
