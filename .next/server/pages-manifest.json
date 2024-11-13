@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/privacy-policy": "pages/privacy-policy.js",
   "/termscondition": "pages/termscondition.js",
-  "/page-pricing": "pages/page-pricing.js",
-  "/page-about": "pages/page-about.js"
+  "/trust-safety": "pages/trust-safety.js"
 }

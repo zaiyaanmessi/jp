@@ -54,7 +54,13 @@ const Footer = () => {
       <a href="/termscondition">Terms</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
-      <a href="#">Trust, Safety & Security</a>
+      <a href="/trust-safety">Trust, Safety & Security</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="/transfer-information">Transfer of Information</a>
+    </li>
+    <li style={{ marginBottom: '10px' }}>
+      <a href="/privacy-policy">Privacy and Policy</a>
     </li>
   </ul>
 </div>
@@ -91,9 +97,9 @@ const Footer = () => {
                         <div className="col-md-6"><span className="font-xs color-text-paragraph">Copyright © 2022. OfferNHire all right reserved</span></div>
                         <div className="col-md-6 text-md-end text-start">
                             <div className="footer-social">
-                                <a className="font-xs color-text-paragraph" href="#">Privacy Policy</a>
-                                <a className="font-xs color-text-paragraph mr-30 ml-30" href="#">Terms &amp; Conditions</a>
-                                <a className="font-xs color-text-paragraph" href="#">Security</a></div>
+                                <a className="font-xs color-text-paragraph" href="/privacy-policy">Privacy Policy</a>
+                                <a className="font-xs color-text-paragraph mr-30 ml-30" href="/termscondition">Terms &amp; Conditions</a>
+                                <a className="font-xs color-text-paragraph" href="trust-safety">Security</a></div>
                         </div>
                     </div>
                 </div>
