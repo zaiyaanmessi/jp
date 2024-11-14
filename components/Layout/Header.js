@@ -154,11 +154,14 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                         </div>
                        <div className="header-right">
     <div className="block-signin">
-        <Link legacyBehavior href="page-signin">
+        <Link legacyBehavior href="api/auth/signin">
             <a className="text-link-bd-btom hover-up">Sign in</a>
         </Link>
+        {/* <Link legacyBehavior href="api/auth/signout">
+            <a className="text-link-bd-btom hover-up">Sign out</a>
+        </Link> */}
 
-        <Link legacyBehavior href="page-employer-signin">
+        <Link legacyBehavior href="api/auth/signout">
             <a className="btn btn-default btn-shadow ml-40 hover-up">Employer</a>
         </Link>
 
@@ -265,7 +268,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                     <Link legacyBehavior href="/page-register"><a>Register</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link legacyBehavior href="/page-signin"><a>Signin</a></Link>
+                                                    <Link legacyBehavior href="/"><a>Signin</a></Link>
                                                 </li>
                                                 <li>
                                                     <Link legacyBehavior href="/page-reset-password"><a>Reset Password</a></Link>
