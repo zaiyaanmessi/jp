@@ -11,6 +11,7 @@
     "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
+  "rootMainFilesTree": {},
   "pages": {
     "/": [
       "static/chunks/webpack.js",
@@ -27,20 +28,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/privacy-policy": [
+    "/sign-in/[[...index]]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/privacy-policy.js"
-    ],
-    "/termscondition": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/termscondition.js"
-    ],
-    "/trust-safety": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/trust-safety.js"
+      "static/chunks/pages/sign-in/[[...index]].js"
     ]
   },
   "ampFirstPages": []
