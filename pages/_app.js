@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ClerkProvider>
       <SignedOut>
-        {/* cl */}
+      
       </SignedOut>
       <SignedIn>
         <UserButton />
