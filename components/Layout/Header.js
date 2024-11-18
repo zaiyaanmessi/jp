@@ -154,14 +154,14 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                         </div>
                        <div className="header-right">
     <div className="block-signin">
-        <Link legacyBehavior href="api/auth/signin">
+        <Link legacyBehavior href="/page-signin">
             <a className="text-link-bd-btom hover-up">Sign in</a>
         </Link>
         {/* <Link legacyBehavior href="api/auth/signout">
             <a className="text-link-bd-btom hover-up">Sign out</a>
         </Link> */}
 
-        <Link legacyBehavior href="api/auth/signout">
+        <Link legacyBehavior href="/page-signout">
             <a className="btn btn-default btn-shadow ml-40 hover-up">Employer</a>
         </Link>
 

@@ -8,10 +8,38 @@ import BrandSlider2 from "./../components/sliders/Brand2";
 import CategorySlider3 from "./../components/sliders/Category3";
 import TopRekruterSlider from "./../components/sliders/TopRekruter";
 import PopularSearches from "./PopularSearches";
+import { useRouter } from 'next/router';
+import { auth, isSignInWithEmailLink, signInWithEmailLink } from '../firebase'; 
 
 
 
 export default function Index3() {
+
+    const router = useRouter();
+    const [message, setMessage] = useState('');
+    useEffect(() => {
+        // Retrieve email from local storage
+        const email = localStorage.getItem('emailForSignIn');
+        
+        // Check if the link is valid and contains a valid email
+        if (email && isSignInWithEmailLink(auth, window.location.href)) {
+          signInWithEmailLink(auth, email, window.location.href)
+            .then((result) => {
+              // Remove email from localStorage after successful sign-in
+              localStorage.removeItem('emailForSignIn');
+              setMessage('Successfully signed in!');
+              router.push('/index');  // Redirect to the dashboard or main page
+            })
+            .catch((error) => {
+              setMessage('Error: ' + error.message);
+            });
+        } else {
+          setMessage('Invalid or expired link.');
+        }
+      }, [router]);
+  
+    
+
     const [searchTerm, setSearchTerm] = useState('');
     const [popularSearches, setPopularSearches] = useState([]);
 

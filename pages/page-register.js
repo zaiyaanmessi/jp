@@ -26,19 +26,19 @@ export default function Register() {
                                         <label className="form-label" htmlFor="input-1">
                                             Full Name *
                                         </label>
-                                        <input className="form-control" id="input-1" type="text" required name="fullname" placeholder="Steven Job" />
+                                        <input className="form-control" id="input-1" type="text" required name="fullname" placeholder="Enter you full name" />
                                     </div>
                                     <div className="form-group">
                                         <label className="form-label" htmlFor="input-2">
                                             Email *
                                         </label>
-                                        <input className="form-control" id="input-2" type="email" required name="emailaddress" placeholder="stevenjob@gmail.com" />
+                                        <input className="form-control" id="input-2" type="email" required name="emailaddress" placeholder="Enter you email" />
                                     </div>
                                     <div className="form-group">
                                         <label className="form-label" htmlFor="input-3">
                                             Username *
                                         </label>
-                                        <input className="form-control" id="input-3" type="text" required name="username" placeholder="stevenjob" />
+                                        <input className="form-control" id="input-3" type="text" required name="username" placeholder="Enter you username" />
                                     </div>
                                     <div className="form-group">
                                         <label className="form-label" htmlFor="input-4">
@@ -75,12 +75,12 @@ export default function Register() {
                                     </div>
                                 </form>
                             </div>
-                            <div className="img-1 d-none d-lg-block">
+                            {/* <div className="img-1 d-none d-lg-block">
                                 <img className="shape-1" src="assets/imgs/page/login-register/img-1.svg" alt="JobBox" />
                             </div>
                             <div className="img-2">
                                 <img src="assets/imgs/page/login-register/img-2.svg" alt="JobBox" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

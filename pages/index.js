@@ -8,10 +8,24 @@ import BrandSlider2 from "./../components/sliders/Brand2";
 import CategorySlider3 from "./../components/sliders/Category3";
 import TopRekruterSlider from "./../components/sliders/TopRekruter";
 import PopularSearches from "./PopularSearches";
+import { useRouter } from "next/router";
 
 
 
 export default function Index3() {
+
+
+    const router = useRouter();
+
+    useEffect(() => {
+      // Redirect to /auth/signin
+      router.push("/page-signin");
+    }, [router]);
+  
+    return null; // This page will immediately redirect to /auth/signin
+ 
+
+
     const [searchTerm, setSearchTerm] = useState('');
     const [popularSearches, setPopularSearches] = useState([]);
 
