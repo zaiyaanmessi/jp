@@ -3,41 +3,43 @@
 import Layout from "../components/Layout/Layout";
 import Link from "next/link";
 import { useState } from 'react';
-import { useRouter } from 'next/router';
-import { auth, sendSignInLinkToEmail } from '../firebase';
 
 export default function Signin() {
-    const router = useRouter();
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleLoginClick = async (e) => {
+    const handleLoginClick = (e) => {
         e.preventDefault();
-        try {
-            const actionCodeSettings = {
-                url: 'http://localhost:3000/main',  // Where to redirect after verification
-                handleCodeInApp: true,
-            };
-
-            await sendSignInLinkToEmail(auth, email, actionCodeSettings);
-            localStorage.setItem('emailForSignIn', email); // Store email for later use
-            setMessage("OTP sent to your email. Please check your inbox.");
-
-        } catch (error) {
-            setMessage("Error: " + error.message);
-        }
+        // Simulate sending OTP (just display a message)
+        setMessage("OTP sent to your email. Please check your inbox.");
     };
 
     return (
         <Layout>
             <section className="pt-100 login-register">
                 <div className="container">
-                    <div className="row login-register-cover">
-                        <div className="col-lg-4 col-md-6 col-sm-12 mx-auto">
+                    <div className="row login-register-cover" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        {/* Left Image Column */}
+                        <div className="col-lg-6 col-md-6 col-sm-12">
+                            <img 
+                                src="assets/imgs/template/signinpagephoto.webp"  // Add the path to your image here
+                                alt="Your Image" 
+                                className="img-fluid"  // Makes the image responsive
+                                style={{ maxWidth: '100%', height: 'auto' }} 
+                            />
+                        </div>
+                        {/* Right Form Column */}
+                        <div className="col-lg-4 col-md-6 col-sm-12" style={{ marginTop: '-20px' }}> {/* Adjusted the margin-top to move up */}
+                            {/* Don't have an Account? Register link aligned to the far right */}
+                            <div className="text-muted text-end mb-20" style={{ textAlign: 'right', borderBottom: '1px solid #dcdcdc', paddingBottom: '20px' }}>
+                                Don't have an Account? 
+                                <Link legacyBehavior href="/page-register">
+                                    <a>Register</a>
+                                </Link>
+                            </div>
                             <div className="text-center">
-                                <p className="font-sm text-brand-2">Welcome back!</p>
-                                <h2 className="mt-10 mb-5 text-brand-1">Member Login</h2>
-                                <p className="font-sm text-muted mb-30">Access to all features. No credit card required.</p>
+                                {/* Login heading with extra space below */}
+                                <h4 className="mt-20 mb-20 text-brand-1" style={{ textAlign: 'left' }}>Login</h4>
                                 <button className="btn social-login hover-up mb-20">
                                     <img src="assets/imgs/template/icons/icon-google.svg" alt="jobbox" />
                                     <strong>Sign in with Google</strong>
@@ -67,15 +69,9 @@ export default function Signin() {
                                     </Link>
                                 </div>
                                 <div className="form-group">
-                                    <button className="btn btn-brand-1 hover-up w-100" type="submit">
+                                    <button className="btn btn-brand-1 hover-up w-100" type="submit" onClick={() => window.location.href = '/index-3'}>
                                         Send OTP
                                     </button>
-                                </div>
-                                <div className="text-muted text-center">
-                                    Don't have an Account?
-                                    <Link legacyBehavior href="/page-register">
-                                        <a>Register</a>
-                                    </Link>
                                 </div>
                                 {message && <p>{message}</p>}
                             </form>
@@ -86,3 +82,4 @@ export default function Signin() {
         </Layout>
     );
 }
+     

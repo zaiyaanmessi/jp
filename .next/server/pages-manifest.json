@@ -1,1 +1,8 @@
-{"/PopularSearches":"pages/PopularSearches.html","/_document":"pages/_document.js","/blog-details":"pages/blog-details.html","/_app":"pages/_app.js","/_error":"pages/_error.js","/blog-grid-2":"pages/blog-grid-2.html","/candidate-profile":"pages/candidate-profile.html","/companies-grid":"pages/companies-grid.html","/candidates-grid":"pages/candidates-grid.html","/company-details":"pages/company-details.html","/candidate-details":"pages/candidate-details.html","/index-5":"pages/index-5.html","/blog-grid":"pages/blog-grid.html","/index-3":"pages/index-3.html","/index-4":"pages/index-4.html","/":"pages/index.html","/index-2":"pages/index-2.html","/index-6":"pages/index-6.html","/job-details-2":"pages/job-details-2.html","/jobs-grid":"pages/jobs-grid.html","/page-content-protected":"pages/page-content-protected.html","/job-details":"pages/job-details.html","/page-pricing":"pages/page-pricing.html","/page-register":"pages/page-register.html","/page-contact":"pages/page-contact.html","/page-about":"pages/page-about.html","/knowledge-base":"pages/knowledge-base.html","/page-signin":"pages/page-signin.html","/page-reset-password":"pages/page-reset-password.html","/jobs-list":"pages/jobs-list.html","/privacy-policy":"pages/privacy-policy.html","/termscondition":"pages/termscondition.html","/transfer-information":"pages/transfer-information.html","/trust-safety":"pages/trust-safety.html","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/page-empsign": "pages/page-empsign.js",
+  "/page-signin": "pages/page-signin.js",
+  "/page-register": "pages/page-register.js"
+}
