@@ -20,15 +20,20 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/page-empsign": [
+    "/blog-details": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-empsign.js"
+      "static/chunks/pages/blog-details.js"
     ],
-    "/page-signin": [
+    "/blog-grid": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/page-signin.js"
+      "static/chunks/pages/blog-grid.js"
+    ],
+    "/page-about": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/page-about.js"
     ]
   },
   "ampFirstPages": []

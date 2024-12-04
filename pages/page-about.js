@@ -74,11 +74,11 @@ export default function About() {
                                         <div className="card-grid-4 text-center hover-up">
                                             <div className="image-top-feature">
                                                 <figure>
-                                                    <img alt="jobBox" src="assets/imgs/page/about/team1.png" />
+                                                    <img alt="jobBox" src="assets/imgs/page/about/candidate2.jpg" />
                                                 </figure>
                                             </div>
                                             <div className="card-grid-4-info">
-                                                <h5 className="mt-10">Arlene McCoy</h5>
+                                                <h5 className="mt-10">Zaiyaan Najam</h5>
                                                 <p className="font-xs color-text-paragraph-2 mt-5 mb-5">Frontend Developer</p>
                                                 <div className="rate-reviews-small pt-5">
                                                     <span>
@@ -116,7 +116,7 @@ export default function About() {
                                         <div className="card-grid-4 text-center hover-up">
                                             <div className="image-top-feature">
                                                 <figure>
-                                                    <img alt="jobBox" src="assets/imgs/page/about/team2.png" />
+                                                    <img alt="jobBox" src="assets/imgs/page/about/candidate1.jpg" />
                                                 </figure>
                                             </div>
                                             <div className="card-grid-4-info">
