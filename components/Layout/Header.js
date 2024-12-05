@@ -129,11 +129,11 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                         </ul>
                                     </li>
                                     <li className="has-children">
-                                        <Link legacyBehavior href="/blog-grid"><a>Blog</a></Link>
+                                        <Link legacyBehavior href="/blog-grid-2"><a>Blog</a></Link>
 
                                         <ul className="sub-menu">
                                             <li>
-                                                <Link legacyBehavior href="/blog-grid"><a>Blog Grid</a></Link>
+                                                <Link legacyBehavior href="/blog-grid-2"><a>Blog Grid</a></Link>
                                             </li>
                                             <li>
                                                 <Link legacyBehavior href="/blog-grid-2"><a>Blog Grid 2</a></Link>

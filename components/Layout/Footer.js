@@ -37,7 +37,7 @@ const Footer = () => {
       <a href="/page-pricing">FAQ</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
-      <a href="/blog-grid">Blog</a>
+      <a href="/blog-grid-2">Blog</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
       <a href="/knowledge-base">Knowledge Base</a>
