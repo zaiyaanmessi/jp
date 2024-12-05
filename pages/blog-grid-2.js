@@ -78,7 +78,7 @@ export default function BlogGrid2() {
                                                         <Link legacyBehavior href="blog-details1">
                                                             <a>
                                                                 <figure>
-                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/img3.png" />
+                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/blogimg1.jpeg" />
                                                                 </figure>
                                                             </a>
                                                         </Link>
@@ -121,7 +121,7 @@ export default function BlogGrid2() {
                                                         <Link legacyBehavior href="blog-details2">
                                                             <a>
                                                                 <figure>
-                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/img4.png" />
+                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/blogimg2.jpeg" />
                                                                 </figure>
                                                             </a>
                                                         </Link>
@@ -164,7 +164,7 @@ export default function BlogGrid2() {
                                                         <Link legacyBehavior href="blog-details3">
                                                             <a>
                                                                 <figure>
-                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/img5.png" />
+                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/blogimg3.jpeg" />
                                                                 </figure>
                                                             </a>
                                                         </Link>
@@ -207,7 +207,7 @@ export default function BlogGrid2() {
                                                         <Link legacyBehavior href="blog-details4">
                                                             <a>
                                                                 <figure>
-                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/img6.png" />
+                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/blogimg4.jpeg" />
                                                                 </figure>
                                                             </a>
                                                         </Link>
@@ -250,7 +250,7 @@ export default function BlogGrid2() {
                                                         <Link legacyBehavior href="blog-details5">
                                                             <a>
                                                                 <figure>
-                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/img7.png" />
+                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/blogimg5.jpeg" />
                                                                 </figure>
                                                             </a>
                                                         </Link>
@@ -293,7 +293,7 @@ export default function BlogGrid2() {
                                                         <Link legacyBehavior href="blog-details6">
                                                             <a>
                                                                 <figure>
-                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/img8.png" />
+                                                                    <img alt="jobBox" src="assets/imgs/page/job-single-2/blogimg6.jpeg" />
                                                                 </figure>
                                                             </a>
                                                         </Link>

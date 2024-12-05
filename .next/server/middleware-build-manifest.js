@@ -25,6 +25,31 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/blog-details1.js"
     ],
+    "/blog-details2": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog-details2.js"
+    ],
+    "/blog-details3": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog-details3.js"
+    ],
+    "/blog-details4": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog-details4.js"
+    ],
+    "/blog-details5": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog-details5.js"
+    ],
+    "/blog-grid-2": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/blog-grid-2.js"
+    ],
     "/page-signin": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
