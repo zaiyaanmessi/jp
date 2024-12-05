@@ -6,7 +6,7 @@ export default function BlogGrid2() {
         <>
             <Layout>
                 <div>
-                    <section className="section-box">
+                    {/* <section className="section-box">
                         <div className="breacrumb-cover">
                             <div className="container">
                                 <div className="row">
@@ -61,13 +61,13 @@ export default function BlogGrid2() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                     <section className="section-box mt-50">
                         <div className="post-loop-grid">
                             <div className="container">
                                 <div className="text-left">
-                                    <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">Latest Posts</h2>
-                                    <p className="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Don't miss the trending news</p>
+                                    <h2 className="section-title mb-10 wow animate__animated animate__fadeInUp">Blogs</h2>
+                                    <p className="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">Don't miss the trending blogs</p>
                                 </div>
                                 <div className="row mt-30">
                                     <div className="col-lg-8">
@@ -75,7 +75,7 @@ export default function BlogGrid2() {
                                             <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
-                                                        <Link legacyBehavior href="blog-details">
+                                                        <Link legacyBehavior href="blog-details1">
                                                             <a>
                                                                 <figure>
                                                                     <img alt="jobBox" src="assets/imgs/page/job-single-2/img3.png" />
@@ -84,18 +84,18 @@ export default function BlogGrid2() {
                                                         </Link>
                                                     </div>
                                                     <div className="card-block-info">
-                                                        <div className="tags mb-15">
+                                                        {/* <div className="tags mb-15">
                                                             <Link legacyBehavior href="blog-grid">
                                                                 <a className="btn btn-tag">News</a>
                                                             </Link>
-                                                        </div>
+                                                        </div> */}
                                                         <h5>
-                                                            <Link legacyBehavior href="blog-details">
-                                                                <a>21 Job Interview Tips: How To Make a Great Impression</a>
+                                                            <Link legacyBehavior href="blog-details1">
+                                                                <a>Workplace Anxiety How to Manage It</a>
                                                             </Link>
                                                         </h5>
-                                                        <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                                        <div className="card-2-bottom mt-20">
+                                                        <p className="mt-10 color-text-paragraph font-sm">In today’s fast-paced work environment, stress and anxiety at work are more common than ever. With looming deadlines, high expectations, and interpersonal challenges.</p>
+                                                        {/* <div className="card-2-bottom mt-20">
                                                             <div className="row">
                                                                 <div className="col-lg-6 col-6">
                                                                     <div className="d-flex">
@@ -111,14 +111,14 @@ export default function BlogGrid2() {
                                                                     <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
-                                                        <Link legacyBehavior href="blog-details">
+                                                        <Link legacyBehavior href="blog-details2">
                                                             <a>
                                                                 <figure>
                                                                     <img alt="jobBox" src="assets/imgs/page/job-single-2/img4.png" />
@@ -127,18 +127,18 @@ export default function BlogGrid2() {
                                                         </Link>
                                                     </div>
                                                     <div className="card-block-info">
-                                                        <div className="tags mb-15">
+                                                        {/* <div className="tags mb-15">
                                                             <Link legacyBehavior href="blog-grid">
                                                                 <a className="btn btn-tag">Events</a>
                                                             </Link>
-                                                        </div>
+                                                        </div> */}
                                                         <h5>
-                                                            <Link legacyBehavior href="blog-details">
-                                                                <a>Email Examples: How To Respond to Employer Interview Requests</a>
+                                                            <Link legacyBehavior href="blog-details2">
+                                                                <a>Tell Me About Yourself Sample Answers for Freshers</a>
                                                             </Link>
                                                         </h5>
-                                                        <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                                        <div className="card-2-bottom mt-20">
+                                                        <p className="mt-10 color-text-paragraph font-sm">One of the most common interview questions is "Tell me about yourself", and it can be especially tricky for freshers who may not have work experience.</p>
+                                                        {/* <div className="card-2-bottom mt-20">
                                                             <div className="row">
                                                                 <div className="col-lg-6 col-6">
                                                                     <div className="d-flex">
@@ -154,14 +154,14 @@ export default function BlogGrid2() {
                                                                     <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
-                                                        <Link legacyBehavior href="blog-details">
+                                                        <Link legacyBehavior href="blog-details3">
                                                             <a>
                                                                 <figure>
                                                                     <img alt="jobBox" src="assets/imgs/page/job-single-2/img5.png" />
@@ -170,18 +170,18 @@ export default function BlogGrid2() {
                                                         </Link>
                                                     </div>
                                                     <div className="card-block-info">
-                                                        <div className="tags mb-15">
+                                                        {/* <div className="tags mb-15">
                                                             <Link legacyBehavior href="blog-grid">
                                                                 <a className="btn btn-tag">Events</a>
                                                             </Link>
-                                                        </div>
+                                                        </div> */}
                                                         <h5>
-                                                            <Link legacyBehavior href="blog-details">
-                                                                <a>How To Write an Application Letter (With Examples)</a>
+                                                            <Link legacyBehavior href="blog-details3">
+                                                                <a>Proven ways to stand out in a job interview!</a>
                                                             </Link>
                                                         </h5>
-                                                        <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                                        <div className="card-2-bottom mt-20">
+                                                        <p className="mt-10 color-text-paragraph font-sm">In today’s competitive job market, making a strong impression during a job interview can be the game-changer in landing your dream role.</p>
+                                                        {/* <div className="card-2-bottom mt-20">
                                                             <div className="row">
                                                                 <div className="col-lg-6 col-6">
                                                                     <div className="d-flex">
@@ -197,14 +197,14 @@ export default function BlogGrid2() {
                                                                     <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
-                                                        <Link legacyBehavior href="blog-details">
+                                                        <Link legacyBehavior href="blog-details4">
                                                             <a>
                                                                 <figure>
                                                                     <img alt="jobBox" src="assets/imgs/page/job-single-2/img6.png" />
@@ -213,18 +213,18 @@ export default function BlogGrid2() {
                                                         </Link>
                                                     </div>
                                                     <div className="card-block-info">
-                                                        <div className="tags mb-15">
+                                                        {/* <div className="tags mb-15">
                                                             <Link legacyBehavior href="blog-grid">
                                                                 <a className="btn btn-tag">Events</a>
                                                             </Link>
-                                                        </div>
+                                                        </div> */}
                                                         <h5>
-                                                            <Link legacyBehavior href="blog-details">
-                                                                <a>17 jobs hired at 15 (and even 14) you should know</a>
+                                                            <Link legacyBehavior href="blog-details4">
+                                                                <a>Learn How to Make a Resume for Any Job Profile</a>
                                                             </Link>
                                                         </h5>
-                                                        <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                                        <div className="card-2-bottom mt-20">
+                                                        <p className="mt-10 color-text-paragraph font-sm">Writing a standout resume doesn’t have to be a stressful task. Whether you're a recent graduate, switching careers, or seeking a promotion, knowing how to create a resume.</p>
+                                                        {/* <div className="card-2-bottom mt-20">
                                                             <div className="row">
                                                                 <div className="col-lg-6 col-6">
                                                                     <div className="d-flex">
@@ -240,14 +240,14 @@ export default function BlogGrid2() {
                                                                     <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
-                                                        <Link legacyBehavior href="blog-details">
+                                                        <Link legacyBehavior href="blog-details5">
                                                             <a>
                                                                 <figure>
                                                                     <img alt="jobBox" src="assets/imgs/page/job-single-2/img7.png" />
@@ -256,18 +256,18 @@ export default function BlogGrid2() {
                                                         </Link>
                                                     </div>
                                                     <div className="card-block-info">
-                                                        <div className="tags mb-15">
+                                                        {/* <div className="tags mb-15">
                                                             <Link legacyBehavior href="blog-grid">
                                                                 <a className="btn btn-tag">Events</a>
                                                             </Link>
-                                                        </div>
+                                                        </div> */}
                                                         <h5>
-                                                            <Link legacyBehavior href="blog-details">
-                                                                <a>How To Write a Cover Letter (Plus Tips and Examples)</a>
+                                                            <Link legacyBehavior href="blog-details5">
+                                                                <a>How to Prepare for Your Technical Interview</a>
                                                             </Link>
                                                         </h5>
-                                                        <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                                        <div className="card-2-bottom mt-20">
+                                                        <p className="mt-10 color-text-paragraph font-sm">Preparing for technical interviews can feel daunting, especially with the extensive rounds and in-depth evaluations many companies conduct.</p>
+                                                        {/* <div className="card-2-bottom mt-20">
                                                             <div className="row">
                                                                 <div className="col-lg-6 col-6">
                                                                     <div className="d-flex">
@@ -283,14 +283,14 @@ export default function BlogGrid2() {
                                                                     <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
-                                                        <Link legacyBehavior href="blog-details">
+                                                        <Link legacyBehavior href="blog-details6">
                                                             <a>
                                                                 <figure>
                                                                     <img alt="jobBox" src="assets/imgs/page/job-single-2/img8.png" />
@@ -299,18 +299,18 @@ export default function BlogGrid2() {
                                                         </Link>
                                                     </div>
                                                     <div className="card-block-info">
-                                                        <div className="tags mb-15">
+                                                        {/* <div className="tags mb-15">
                                                             <Link legacyBehavior href="blog-grid">
                                                                 <a className="btn btn-tag">Events</a>
                                                             </Link>
-                                                        </div>
+                                                        </div> */}
                                                         <h5>
-                                                            <Link legacyBehavior href="blog-details">
-                                                                <a>10 Best Skills To Include on a Resume in 2022</a>
+                                                            <Link legacyBehavior href="blog-details6">
+                                                                <a>How to Find a Job After Graduation</a>
                                                             </Link>
                                                         </h5>
-                                                        <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                                        <div className="card-2-bottom mt-20">
+                                                        <p className="mt-10 color-text-paragraph font-sm">Graduating from university is a significant milestone, but it also marks the beginning of a new challenge: finding your first job. </p>
+                                                        {/* <div className="card-2-bottom mt-20">
                                                             <div className="row">
                                                                 <div className="col-lg-6 col-6">
                                                                     <div className="d-flex">
@@ -326,11 +326,11 @@ export default function BlogGrid2() {
                                                                     <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
                                                                 </div>
                                                             </div>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 mb-30">
+                                            {/* <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
                                                         <Link legacyBehavior href="blog-details">
@@ -372,8 +372,8 @@ export default function BlogGrid2() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div className="col-lg-6 mb-30">
+                                            </div> */}
+                                            {/* <div className="col-lg-6 mb-30">
                                                 <div className="card-grid-3 hover-up">
                                                     <div className="text-center card-grid-3-image">
                                                         <Link legacyBehavior href="blog-details">
@@ -415,7 +415,7 @@ export default function BlogGrid2() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                         <div className="paginations">
                                             <ul className="pager">

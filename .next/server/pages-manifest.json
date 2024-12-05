@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/page-about": "pages/page-about.js",
-  "/blog-details": "pages/blog-details.js",
-  "/blog-grid": "pages/blog-grid.js",
-  "/knowledge-base": "pages/knowledge-base.js"
+  "/blog-grid-2": "pages/blog-grid-2.js",
+  "/blog-details1": "pages/blog-details1.js",
+  "/page-signin": "pages/page-signin.js"
 }
