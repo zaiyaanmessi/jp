@@ -22,43 +22,25 @@ const BlogSlider = () => {
                         <div className="swiper-slide">
                             <div className="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                 <div className="text-center card-grid-3-image">
-                                    <Link legacyBehavior href="#">
+                                    <Link legacyBehavior href="blog-details1">
                                         <a>
                                             <figure>
-                                                <img alt="jobBox" src="/assets/imgs/page/homepage1/img-news1.png" />
+                                                <img alt="jobBox" src="/assets/imgs/page/job-single-2/blogimg1.jpeg" />
                                             </figure>
                                         </a>
                                     </Link>
                                 </div>
                                 <div className="card-block-info">
                                     <div className="tags mb-15">
-                                        <Link legacyBehavior href="/blog-grid">
-                                            <a className="btn btn-tag">News</a>
-                                        </Link>
+                                   
                                     </div>
                                     <h5>
-                                        <Link legacyBehavior href="/blog-grid">
-                                            <a>21 Job Interview Tips: How To Make a Great Impression</a>
+                                        <Link legacyBehavior href="/blog-details1">
+                                            <a>Workplace Anxiety How to Manage It</a>
                                         </Link>
                                     </h5>
-                                    <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                    <div className="card-2-bottom mt-20">
-                                        <div className="row">
-                                            <div className="col-lg-6 col-6">
-                                                <div className="d-flex">
-                                                    <img className="img-rounded" src="/assets/imgs/page/homepage1/user1.png" alt="jobBox" />
-                                                    <div className="info-right-img">
-                                                        <span className="font-sm font-bold color-brand-1 op-70">Sarah Harding</span>
-                                                        <br />
-                                                        <span className="font-xs color-text-paragraph-2">06 September</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 text-end col-6 pt-15">
-                                                <span className="color-text-paragraph-2 font-xs">8 mins to read</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p className="mt-10 color-text-paragraph font-sm">In today’s fast-paced work environment, stress and anxiety at work are more common than ever. With looming deadlines, high expectations, and interpersonal challenges.</p>
+                               
                                 </div>
                             </div>
                         </div>
@@ -67,43 +49,25 @@ const BlogSlider = () => {
                         <div className="swiper-slide">
                             <div className="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                 <div className="text-center card-grid-3-image">
-                                    <Link legacyBehavior href="#">
+                                    <Link legacyBehavior href="blog-details2">
                                         <a>
                                             <figure>
-                                                <img alt="jobBox" src="/assets/imgs/page/homepage1/img-news2.png" />
+                                                <img alt="jobBox" src="/assets/imgs/page/job-single-2/blogimg2.jpeg" />
                                             </figure>
                                         </a>
                                     </Link>
                                 </div>
                                 <div className="card-block-info">
                                     <div className="tags mb-15">
-                                        <Link legacyBehavior href="/blog-grid">
-                                            <a className="btn btn-tag">Events</a>
-                                        </Link>
+                                        
                                     </div>
                                     <h5>
-                                        <Link legacyBehavior href="/blog-grid">
-                                            <a>39 Strengths and Weaknesses To Discuss in a Job Interview</a>
+                                        <Link legacyBehavior href="/blog-details2">
+                                            <a>Tell Me About Yourself Sample Answers for Freshers</a>
                                         </Link>
                                     </h5>
-                                    <p className="mt-10 color-text-paragraph font-sm">Our mission is to create the world&amp;rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.</p>
-                                    <div className="card-2-bottom mt-20">
-                                        <div className="row">
-                                            <div className="col-lg-6 col-6">
-                                                <div className="d-flex">
-                                                    <img className="img-rounded" src="/assets/imgs/page/homepage1/user2.png" alt="jobBox" />
-                                                    <div className="info-right-img">
-                                                        <span className="font-sm font-bold color-brand-1 op-70">Steven Jobs</span>
-                                                        <br />
-                                                        <span className="font-xs color-text-paragraph-2">06 September</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 text-end col-6 pt-15">
-                                                <span className="color-text-paragraph-2 font-xs">6 mins to read</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p className="mt-10 color-text-paragraph font-sm">One of the most common interview questions is "Tell me about yourself", and it can be especially tricky for freshers who may not have work experience.</p>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -112,43 +76,25 @@ const BlogSlider = () => {
                         <div className="swiper-slide">
                             <div className="card-grid-3 hover-up wow animate__animated animate__fadeIn">
                                 <div className="text-center card-grid-3-image">
-                                    <Link legacyBehavior href="#">
+                                    <Link legacyBehavior href="blog-details3">
                                         <a>
                                             <figure>
-                                                <img alt="jobBox" src="/assets/imgs/page/homepage1/img-news3.png" />
+                                                <img alt="jobBox" src="/assets/imgs/page/job-single-2/blogimg3.jpeg" />
                                             </figure>
                                         </a>
                                     </Link>
                                 </div>
                                 <div className="card-block-info">
                                     <div className="tags mb-15">
-                                        <Link legacyBehavior href="/blog-grid">
-                                            <a className="btn btn-tag">News</a>
-                                        </Link>
+                                       
                                     </div>
                                     <h5>
-                                        <Link legacyBehavior href="/blog-grid">
-                                            <a>Interview Question: Why Dont You Have a Degree?</a>
+                                        <Link legacyBehavior href="/blog-details3">
+                                            <a>Proven ways to stand out in a job interview!</a>
                                         </Link>
                                     </h5>
-                                    <p className="mt-10 color-text-paragraph font-sm">Learn how to respond if an interviewer asks you why you dont have a degree, and read example answers that can help you craft</p>
-                                    <div className="card-2-bottom mt-20">
-                                        <div className="row">
-                                            <div className="col-lg-6 col-6">
-                                                <div className="d-flex">
-                                                    <img className="img-rounded" src="/assets/imgs/page/homepage1/user3.png" alt="jobBox" />
-                                                    <div className="info-right-img">
-                                                        <span className="font-sm font-bold color-brand-1 op-70">Wiliam Kend</span>
-                                                        <br />
-                                                        <span className="font-xs color-text-paragraph-2">06 September</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 text-end col-6 pt-15">
-                                                <span className="color-text-paragraph-2 font-xs">9 mins to read</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p className="mt-10 color-text-paragraph font-sm">In today’s competitive job market, making a strong impression during a job interview can be the game-changer in landing your dream role.</p>
+                                   
                                 </div>
                             </div>
                         </div>
