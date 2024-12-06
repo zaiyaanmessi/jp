@@ -23,25 +23,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/blog-details1": [
+    "/candidate-details": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/blog-details1.js"
-    ],
-    "/blog-details3": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/blog-details3.js"
-    ],
-    "/blog-grid-2": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/blog-grid-2.js"
-    ],
-    "/page-about": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/page-about.js"
+      "static/chunks/pages/candidate-details.js"
     ]
   },
   "ampFirstPages": []

@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/page-about": "pages/page-about.js",
-  "/blog-details1": "pages/blog-details1.js",
-  "/blog-grid-2": "pages/blog-grid-2.js",
-  "/blog-details3": "pages/blog-details3.js",
-  "/blog-grid": "pages/blog-grid.js"
+  "/page-signin": "pages/page-signin.js",
+  "/candidate-details": "pages/candidate-details.js"
 }

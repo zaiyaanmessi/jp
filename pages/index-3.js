@@ -938,7 +938,7 @@ export default function Index3() {
                     <section className="section-box mt-50">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-6 col-md-12 mb-15 mb-lg-0">
+                                {/* <div className="col-lg-6 col-md-12 mb-15 mb-lg-0">
                                     <div className="box-radius-8 bg-urgent hover-up">
                                         <div className="image">
                                             <figure>
@@ -955,8 +955,8 @@ export default function Index3() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="col-lg-6 col-md-12">
+                                </div> */}
+                                {/* <div className="col-lg-6 col-md-12">
                                     <div className="box-radius-8 bg-9 hover-up">
                                         <div className="image">
                                             <figure>
@@ -973,7 +973,7 @@ export default function Index3() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </section>

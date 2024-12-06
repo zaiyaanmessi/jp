@@ -1,13 +1,146 @@
 import Link from "next/link";
 import Layout from "../components/Layout/Layout";
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
+import { jsPDF } from "jspdf";
+
 
 export default function CandidateDetails() {
     const [activeIndex, setActiveIndex] = useState(1);
+   
+
+   
 
     const handleOnClick = (index) => {
         setActiveIndex(index); // remove the curly braces
     };
+
+
+    const downloadCV = () => {
+        if (!jsPDF) {
+            console.error('jsPDF not loaded');
+            return;
+        }
+
+        // Create a new jsPDF instance
+        const doc = new jsPDF();
+
+        // Set up fonts and styles
+        doc.setFont('helvetica');
+
+        // Name and Contact Info
+        doc.setFontSize(20);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Doe John", 10, 20);
+
+        doc.setFontSize(10);
+        doc.setFont('helvetica', 'normal');
+        doc.text("+91 0000000000 | abc@gmail.com | LinkedIn | GitHub", 10, 27);
+        doc.text("Bangalore, Karnataka", 10, 34);
+
+        // Skills Section
+        doc.setFontSize(14);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Skills", 10, 50);
+        doc.setLineWidth(0.5);
+        doc.line(10, 52, 60, 52);
+
+        doc.setFontSize(10);
+        doc.setFont('helvetica', 'normal');
+        doc.text("Languages: C/C++, Python, HTML/CSS, JavaScript, TypeScript, SQL", 10, 58);
+        doc.text("AI/ML: TensorFlow, Keras, Scikit-learn, Google Cloud AI APIs", 10, 63);
+        doc.text("Frameworks: React.js, Next.js, Tailwind CSS", 10, 68);
+        doc.text("Database: MySQL", 10, 73);
+        doc.text("Developer Tools: Git, VS Code, Visual Studio", 10, 78);
+
+        // Education Section
+        doc.setFontSize(14);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Education", 10, 95);
+        doc.setLineWidth(0.5);
+        doc.line(10, 97, 60, 97);
+
+        doc.setFontSize(10);
+        doc.setFont('helvetica', 'bold');
+        doc.text("abc College of Engineering", 10, 103);
+        doc.setFont('helvetica', 'normal');
+        doc.text("Bangalore, Karnataka", 10, 108);
+        doc.text("B.E Computer Science and Engineering; CGPA: 00", 10, 113);
+        doc.text("Dec 2021 – July 2025", 10, 118);
+
+        doc.setFont('helvetica', 'bold');
+        doc.text("school(CBSE)", 10, 126);
+        doc.setFont('helvetica', 'normal');
+        doc.text("abc", 10, 131);
+        doc.text("Class XII; Percentage: 90%", 10, 136);
+        doc.text("July 2021", 10, 141);
+
+        // Experience Section
+        doc.setFontSize(14);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Experience", 10, 158);
+        doc.setLineWidth(0.5);
+        doc.line(10, 160, 60, 160);
+
+        doc.setFontSize(10);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Indian Institute of Technology", 10, 166);
+        doc.setFont('helvetica', 'normal');
+        doc.text("Software Engineer", 10, 171);
+        doc.text("Oct 2023 – Dec 2023, Internship", 10, 176);
+        doc.text("• Developed scalable web pages using React.js, supporting 100% growth in user traffic.", 10, 181);
+        doc.text("• Automated and optimised the data handling process for traffic", 10, 186);
+
+        doc.setFont('helvetica', 'bold');
+        doc.text("Raja Ramanna Centre for Advanced Technology", 10, 194);
+        doc.setFont('helvetica', 'normal');
+        doc.text("Machine Learning Intern", 10, 199);
+        doc.text("Nov 2024 – Present, Internship", 10, 204);
+        doc.text("• Developing a dynamic and user-friendly job portal using Next.js and MongoDB.", 10, 209);
+        doc.text("• Implementing backend solutions for job listings, user authentication, and database management.", 10, 214);
+
+        // Projects Section
+        doc.setFontSize(14);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Projects", 10, 231);
+        doc.setLineWidth(0.5);
+        doc.line(10, 233, 60, 233);
+
+        doc.setFontSize(10);
+        doc.setFont('helvetica', 'bold');
+        doc.text("The Relation between GDP and IMR", 10, 239);
+        doc.setFont('helvetica', 'normal');
+        doc.text("• Built a front-end for a Machine Learning-based Framework to analyze datasets for Autism Spectrum Disorder detection.", 10, 244);
+        doc.text("• Collaborated on implementing features such as data visualization and user input validation.", 10, 249);
+
+        doc.setFont('helvetica', 'bold');
+        doc.text("Study of the behavior of Serial Killers", 10, 257);
+        doc.setFont('helvetica', 'normal');
+        doc.text("• Analysing data from 1960 to 2020 and discover patterns in the data that show trends between Gross domestic product per capita, Infant Mortality rate, Literacy Rate, and Industrial Development.", 10, 262);
+   
+
+        doc.setFont('helvetica', 'bold');
+        doc.text("IPL Analysis", 10, 275);
+        doc.setFont('helvetica', 'normal');
+        doc.text("• Analysing data from 2008 to 2015 to discover patterns such as trends, correlations, and probabilities.", 10, 280);
+        doc.text("• Finding the differences between the best teams and players in various fields, as well as their performance on the field and the opponents.", 10, 285);
+        doc.text("• Implemented multi-language translation using Google Cloud Translation API.", 10, 290);
+
+        // Awards & Achievements Section
+        doc.setFontSize(14);
+        doc.setFont('helvetica', 'bold');
+        doc.text("Awards & Achievements", 10, 307);
+        doc.setLineWidth(0.5);
+        doc.line(10, 309, 60, 309);
+
+        doc.setFontSize(10);
+        doc.text("• HackElite 24-Hour Hackathon: Contributed to developing an AI-based agriculture management system.", 10, 315);
+        doc.text("• Hack4Heart Hackathon - Jayadeva Hospital: Developed a speech-to-text clinical reporting system.", 10, 320);
+
+        // Save the PDF
+        doc.save("Resume.pdf");
+    };
+
+
     return (
         <>
             <Layout>
@@ -37,10 +170,14 @@ export default function CandidateDetails() {
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-12 text-lg-end">
-                                    <Link legacyBehavior href="page-contact">
-                                        <a className="btn btn-download-icon btn-apply btn-apply-big">Download CV</a>
-                                    </Link>
-                                </div>
+                    <button 
+                        className="btn btn-download-icon btn-apply btn-apply-big"
+                        onClick={downloadCV}
+                        disabled={!jsPDF}
+                    >
+                        {jsPDF ? 'Download CV' : 'Loading...'}
+                    </button>
+                </div>
                             </div>
                         </div>
                         <div className="box-nav-tabs mt-40 mb-5">
