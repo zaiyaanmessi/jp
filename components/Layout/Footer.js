@@ -57,7 +57,7 @@ const Footer = () => {
       <a href="/trust-safety">Trust, Safety & Security</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
-      <a href="/transfer-information">Transfer of Information</a>
+      <a href="/transfer-information">Transfer of information</a>
     </li>
     <li style={{ marginBottom: '10px' }}>
       <a href="/privacy-policy">Privacy and Policy</a>
