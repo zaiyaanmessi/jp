@@ -154,14 +154,14 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                         </div>
                        <div className="header-right">
     <div className="block-signin">
-        <Link legacyBehavior href="/page-signin">
-            <a className="text-link-bd-btom hover-up">Sign in</a>
+        <Link legacyBehavior href="https://dashcandidate.vercel.app/">
+            <a className="text-link-bd-btom hover-up">Candidt</a>
         </Link>
         {/* <Link legacyBehavior href="api/auth/signout">
             <a className="text-link-bd-btom hover-up">Sign out</a>
         </Link> */}
 
-        <Link legacyBehavior href="/page-empsign">
+        <Link legacyBehavior href="https://offern-hire-dash.vercel.app/">
             <a className="btn btn-default btn-shadow ml-40 hover-up">Employer</a>
         </Link>
 
