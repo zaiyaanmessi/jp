@@ -1,4 +1,4 @@
-﻿/* eslint-disable @next/next/no-html-link-for-pages */
+﻿
 import Link from 'next/link';
 import React from 'react';
 import { useState, useEffect } from "react";
@@ -154,14 +154,14 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                         </div>
                        <div className="header-right">
     <div className="block-signin">
-        <Link legacyBehavior href="https://dashcandidate.vercel.app/">
+        <Link legacyBehavior href="/page-signin">
             <a className="text-link-bd-btom hover-up">Candidt</a>
         </Link>
         {/* <Link legacyBehavior href="api/auth/signout">
             <a className="text-link-bd-btom hover-up">Sign out</a>
         </Link> */}
 
-        <Link legacyBehavior href="https://offern-hire-dash.vercel.app/">
+        <Link legacyBehavior href="/page-signin">
             <a className="btn btn-default btn-shadow ml-40 hover-up">Employer</a>
         </Link>
 

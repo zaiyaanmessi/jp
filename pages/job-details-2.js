@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import Link from "next/link";
 import Layout from "../components/Layout/Layout";
 import FeaturedSlider from "./../components/sliders/Featured";
